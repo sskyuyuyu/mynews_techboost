@@ -15,7 +15,7 @@ initial-scale=1">
           <title>@yield('title')</title>
           
           
-          <script src="{{ secure_asset('js/app.js) }}"
+          <script src="{{ secure_asset('js/app.js') }}"
 defer></script>
 
 
@@ -26,7 +26,7 @@ family=Raleway:300,400,600" rel="stylesheet"
 type="text/css">
 
 
-          <link href="{{ secure_asset('css/app.css) }}"
+          <link href="{{ secure_asset('css/app.css') }}"
 rel="stylesheet">
           <link href="{{ secure_asset('css/admin.css') }}"
 rel="stylesheet">
