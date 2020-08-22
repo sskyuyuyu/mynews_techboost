@@ -10,8 +10,7 @@ initial-scale=1">
 
          <title>MyNews</title>
     </head>
-    <body>
-    </body>
+    
 {{-- layouts/admin.blade.phpを読み込む --}}
 @extends('layouts.admin')
 
@@ -41,7 +40,7 @@ enctype="multipart/form-data">
 </label>
                         <div class="col-md-10">
                             <input type="text"
-class="form-control" name="title" value="{{ old('title")
+class="form-control" name="title" value="{{ old('title')
 }}">
                         </div>
                     </div>
@@ -69,4 +68,5 @@ primary"value="更新">
         </div>
     </div>
 @endsection
-</html>
+
+     
